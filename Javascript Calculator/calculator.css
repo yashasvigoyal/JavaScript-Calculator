@@ -1,0 +1,28 @@
+#submitbtn{
+    margin:10px;
+}
+#answer{
+    position:absolute;
+    left: 35vw;
+    width:440px;
+    background-color: beige;
+    height: 30px;
+    border: 1px solid black;
+}
+#operators{
+   
+    width: 180px;
+}
+@media screen and (max-width:800px){
+    #answer{
+        position:absolute;
+        left:20vw;
+        width:280px;
+    }
+    input{
+        width:60px;
+    }
+    #operators{
+        width: 70px;
+    }
+}
